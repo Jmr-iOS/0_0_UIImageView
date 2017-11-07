@@ -15,9 +15,9 @@ class FadingImageView : UIImageView {
 
     var secondImage:UIImage = UIImage(named:"animal_1")!;
 
-    var loadThread : NSTimer!;
-    var fadeThread : NSTimer!;
-    var sizeThread : NSTimer!;
+    var loadThread : Timer!;
+    var fadeThread : Timer!;
+    var sizeThread : Timer!;
 
     let loadDelay_s : Double = 0.5;
 
@@ -45,7 +45,7 @@ class FadingImageView : UIImageView {
 
         print("TappableImageView was initialized");
         
-        self.loadThread = NSTimer.scheduledTimerWithTimeInterval(loadDelay_s, target: self, selector: #selector(FadingImageView.init_load), userInfo: nil, repeats: true);
+        self.loadThread = Timer.scheduledTimer(timeInterval: loadDelay_s, target: self, selector: #selector(FadingImageView.init_load), userInfo: nil, repeats: true);
         
         return;
     }
@@ -55,9 +55,9 @@ class FadingImageView : UIImageView {
 
         print("Loading after a delay");
         
-        fadeThread = NSTimer.scheduledTimerWithTimeInterval(0.0125, target: self, selector: #selector(FadingImageView.incr_fade_step), userInfo: nil, repeats: true);
+        fadeThread = Timer.scheduledTimer(timeInterval: 0.0125, target: self, selector: #selector(FadingImageView.incr_fade_step), userInfo: nil, repeats: true);
 
-        sizeThread = NSTimer.scheduledTimerWithTimeInterval(0.025, target: self, selector: #selector(FadingImageView.incr_size_step), userInfo: nil, repeats: true);
+        sizeThread = Timer.scheduledTimer(timeInterval: 0.025, target: self, selector: #selector(FadingImageView.incr_size_step), userInfo: nil, repeats: true);
 
         
         loadThread.invalidate();
@@ -126,9 +126,9 @@ class FadingImageView : UIImageView {
             new_y      =  currFrame.origin.y + 2;
         }
         
-        self.contentMode = .ScaleAspectFill;
+        self.contentMode = .scaleAspectFill;
         
-        self.frame = CGRectMake(new_x, new_y, new_width, new_height);
+        self.frame = CGRect(x: new_x, y: new_y, width: new_width, height: new_height);
         
         return;
     }

@@ -20,13 +20,13 @@ class ViewController: UIViewController {
         //self.loadImage(self.view, imageStr:"example");
         
         //#1 - Tap Handling
-        self.view.addSubview(TappableImageView(frame:CGRectMake((375-200)/2, 25, 200, 200)));
+        self.view.addSubview(TappableImageView(frame:CGRect(x: (375-200)/2, y: 25, width: 200, height: 200)));
         
         //#2 - Fade (swap)
-        self.view.addSubview(TappableImageSwapView(frame:CGRectMake((375-100)/2, 235, 100, 100)));
+        self.view.addSubview(TappableImageSwapView(frame:CGRect(x: (375-100)/2, y: 235, width: 100, height: 100)));
         
         //#3 - Fade (general)
-        self.view.addSubview(FadingImageView(frame:CGRectMake((375-200)/2, 350, 200, 200)));
+        self.view.addSubview(FadingImageView(frame:CGRect(x: (375-200)/2, y: 350, width: 200, height: 200)));
 
         //#4 - Scaled Image
         self.view.addSubview(self.getScaledImage(0.2));         //put any positive number desired here. Best examples are 0.2, 0.4 & 2.0
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 
     
     //the plain, simple load
-    func loadImage(view:UIView, imageStr:String) {
+    func loadImage(_ view:UIView, imageStr:String) {
         
         let width  : CGFloat = 206;
         let height : CGFloat = 190;
@@ -52,7 +52,7 @@ class ViewController: UIViewController {
         
         imageView  = UIImageView();
         
-        imageView.frame = CGRectMake(xCoord, yCoord, width, height);
+        imageView.frame = CGRect(x: xCoord, y: yCoord, width: width, height: height);
         
         imageView.image = UIImage(named:"example");
         
@@ -70,20 +70,20 @@ class ViewController: UIViewController {
         var image     : UIImage;
         var imageView : UIImageView;
         
-        let xCoord : CGFloat = (UIScreen.mainScreen().bounds.width-86)/2 + 100;         /* offset '+100' to the right of center     */
+        let xCoord : CGFloat = (UIScreen.main.bounds.width-86)/2 + 100;         /* offset '+100' to the right of center     */
         
         image = UIImage(named: "empty")!;
         
         let size  : CGSize = image.size;
-        let frame : CGRect = CGRectMake(xCoord, 600, size.width, size.height);
+        let frame : CGRect = CGRect(x: xCoord, y: 600, width: size.width, height: size.height);
         
         let redCover : UIView = UIView(frame: frame);
         
-        redCover.backgroundColor = UIColor.redColor();
+        redCover.backgroundColor = UIColor.red;
         redCover.layer.opacity = 0.75;
         
         imageView       = UIImageView();
-        imageView.image = image.imageWithRenderingMode(UIImageRenderingMode.Automatic);
+        imageView.image = image.withRenderingMode(UIImageRenderingMode.automatic);
         
         imageView.addSubview(redCover);
         
@@ -92,11 +92,11 @@ class ViewController: UIViewController {
 
 
     //scale the image from 0 to 1 on scale input
-    func getScaledImage(scale : CGFloat) -> UIImageView {
+    func getScaledImage(_ scale : CGFloat) -> UIImageView {
         var image     : UIImage;
         var tempImageView : UIImageView;
         
-        let xCoord : CGFloat = (UIScreen.mainScreen().bounds.width-86)/2 - 100;         /* offset '-100' to the right of center     */
+        let xCoord : CGFloat = (UIScreen.main.bounds.width-86)/2 - 100;         /* offset '-100' to the right of center     */
 
         image = UIImage(named: "animal_1")!;
         
@@ -107,11 +107,11 @@ class ViewController: UIViewController {
 //      print("    New Image Size is \(newWidth), \(newHeight)");
 
         tempImageView       = UIImageView();
-        tempImageView.image = image.imageWithRenderingMode(UIImageRenderingMode.Automatic);
+        tempImageView.image = image.withRenderingMode(UIImageRenderingMode.automatic);
         
-        tempImageView.contentMode = .ScaleAspectFit;
+        tempImageView.contentMode = .scaleAspectFit;
         
-        tempImageView.frame = CGRectMake(xCoord, 600, newWidth, newHeight);
+        tempImageView.frame = CGRect(x: xCoord, y: 600, width: newWidth, height: newHeight);
         
         return tempImageView;
     }

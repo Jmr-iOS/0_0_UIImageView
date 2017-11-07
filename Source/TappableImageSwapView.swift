@@ -15,8 +15,8 @@ class TappableImageSwapView : UIImageView {
 
     var secondImage:UIImage = UIImage(named:"two")!;
 
-    var loadThread : NSTimer!;
-    var fadeThread : NSTimer!;
+    var loadThread : Timer!;
+    var fadeThread : Timer!;
     
     let loadDelay_s : Double = 0.5;
 
@@ -47,7 +47,7 @@ class TappableImageSwapView : UIImageView {
         tapRecognizer.numberOfTouchesRequired = 1;
         
         self.addGestureRecognizer(tapRecognizer);
-        self.userInteractionEnabled = true;
+        self.isUserInteractionEnabled = true;
         
         print("addTapRecognizer was called");
         
@@ -55,7 +55,7 @@ class TappableImageSwapView : UIImageView {
     }
 
   
-    func handleTap(recognizer:UITapGestureRecognizer) {
+    func handleTap(_ recognizer:UITapGestureRecognizer) {
         
         //Swap w/Fade
         let fadeAnim:CABasicAnimation = CABasicAnimation(keyPath: "contents");
@@ -68,7 +68,7 @@ class TappableImageSwapView : UIImageView {
         //Update ImageView
         self.image = (self.image == firstImage) ? secondImage:firstImage;
         
-        self.layer.addAnimation(fadeAnim, forKey: "contents");
+        self.layer.add(fadeAnim, forKey: "contents");
         
         print("Swap");
         
