@@ -11,9 +11,9 @@
 		D0192E4D1D10FCA500DCD467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0192E4B1D10FCA500DCD467 /* ViewController.swift */; };
 		D0192E511D10FCD600DCD467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0192E4E1D10FCD600DCD467 /* Assets.xcassets */; };
 		D0192E531D10FCD600DCD467 /* Stdcomments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0192E501D10FCD600DCD467 /* Stdcomments.swift */; };
-		D0192E551D10FCDE00DCD467 /* FadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0192E541D10FCDE00DCD467 /* FadingImageView.swift */; };
-		D0192E581D10FCE600DCD467 /* TappableImageSwapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0192E561D10FCE600DCD467 /* TappableImageSwapView.swift */; };
-		D0192E591D10FCE600DCD467 /* TappableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0192E571D10FCE600DCD467 /* TappableImageView.swift */; };
+		D09FA72A1FB179630059DA5F /* FadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA7271FB179630059DA5F /* FadingImageView.swift */; };
+		D09FA72B1FB179630059DA5F /* TappableImageSwapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA7281FB179630059DA5F /* TappableImageSwapView.swift */; };
+		D09FA72C1FB179630059DA5F /* TappableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA7291FB179630059DA5F /* TappableImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +22,10 @@
 		D0192E4E1D10FCD600DCD467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Source/Assets.xcassets; sourceTree = "<group>"; };
 		D0192E4F1D10FCD600DCD467 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
 		D0192E501D10FCD600DCD467 /* Stdcomments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stdcomments.swift; path = Source/Stdcomments.swift; sourceTree = "<group>"; };
-		D0192E541D10FCDE00DCD467 /* FadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadingImageView.swift; path = Source/FadingImageView.swift; sourceTree = "<group>"; };
-		D0192E561D10FCE600DCD467 /* TappableImageSwapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TappableImageSwapView.swift; path = Source/TappableImageSwapView.swift; sourceTree = "<group>"; };
-		D0192E571D10FCE600DCD467 /* TappableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TappableImageView.swift; path = Source/TappableImageView.swift; sourceTree = "<group>"; };
 		D039B4B61BF4D7950024005F /* 0_0 - UIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0_0 - UIImageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09FA7271FB179630059DA5F /* FadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadingImageView.swift; path = Source/ImageViews/FadingImageView.swift; sourceTree = SOURCE_ROOT; };
+		D09FA7281FB179630059DA5F /* TappableImageSwapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TappableImageSwapView.swift; path = Source/ImageViews/TappableImageSwapView.swift; sourceTree = SOURCE_ROOT; };
+		D09FA7291FB179630059DA5F /* TappableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TappableImageView.swift; path = Source/ImageViews/TappableImageView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +54,7 @@
 			children = (
 				D0192E4A1D10FCA500DCD467 /* AppDelegate.swift */,
 				D0192E4B1D10FCA500DCD467 /* ViewController.swift */,
-				D039B4B81BF4D7950024005F /* ImageViews */,
-				D0192E541D10FCDE00DCD467 /* FadingImageView.swift */,
-				D0192E561D10FCE600DCD467 /* TappableImageSwapView.swift */,
-				D0192E571D10FCE600DCD467 /* TappableImageView.swift */,
+				D09FA7261FB179500059DA5F /* ImageViews */,
 				D0192E491D10FC4B00DCD467 /* Base */,
 				D039B4B71BF4D7950024005F /* Products */,
 			);
@@ -71,12 +68,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D039B4B81BF4D7950024005F /* ImageViews */ = {
+		D09FA7261FB179500059DA5F /* ImageViews */ = {
 			isa = PBXGroup;
 			children = (
+				D09FA7271FB179630059DA5F /* FadingImageView.swift */,
+				D09FA7281FB179630059DA5F /* TappableImageSwapView.swift */,
+				D09FA7291FB179630059DA5F /* TappableImageView.swift */,
 			);
-			name = ImageViews;
-			path = "0_0 - UIImageView";
+			path = ImageViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,12 +105,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0710;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = Jaostech;
 				TargetAttributes = {
 					D039B4B51BF4D7950024005F = {
 						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 0830;
+						DevelopmentTeam = HRCQBX7PVQ;
+						LastSwiftMigration = 0910;
 					};
 				};
 			};
@@ -149,12 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0192E581D10FCE600DCD467 /* TappableImageSwapView.swift in Sources */,
+				D09FA72B1FB179630059DA5F /* TappableImageSwapView.swift in Sources */,
 				D0192E4C1D10FCA500DCD467 /* AppDelegate.swift in Sources */,
 				D0192E4D1D10FCA500DCD467 /* ViewController.swift in Sources */,
-				D0192E591D10FCE600DCD467 /* TappableImageView.swift in Sources */,
+				D09FA72C1FB179630059DA5F /* TappableImageView.swift in Sources */,
 				D0192E531D10FCD600DCD467 /* Stdcomments.swift in Sources */,
-				D0192E551D10FCDE00DCD467 /* FadingImageView.swift in Sources */,
+				D09FA72A1FB179630059DA5F /* FadingImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,14 +169,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -215,14 +221,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -251,11 +263,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HRCQBX7PVQ;
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -263,11 +276,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HRCQBX7PVQ;
 				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};

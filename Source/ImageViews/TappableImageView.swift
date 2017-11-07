@@ -11,9 +11,9 @@ import UIKit
 
 class TappableImageView : UIImageView {
 
-    var firstImage :UIImage = UIImage(named:"animal_0")!;
+    @objc var firstImage :UIImage = UIImage(named:"animal_0")!;
 
-    var secondImage:UIImage = UIImage(named:"animal_1")!;
+    @objc var secondImage:UIImage = UIImage(named:"animal_1")!;
 
 
     
@@ -37,7 +37,7 @@ class TappableImageView : UIImageView {
     
     
 
-    func addTapRecognizer() {
+    @objc func addTapRecognizer() {
         
         let tapRecognizer : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(TappableImageView.handleTap(_:)));
         
@@ -53,7 +53,7 @@ class TappableImageView : UIImageView {
     }
 
     
-    func handleTap(_ recognizer:UITapGestureRecognizer) {
+    @objc func handleTap(_ recognizer:UITapGestureRecognizer) {
         
         //Swap w/Fade
         let fadeAnim:CABasicAnimation = CABasicAnimation(keyPath: "contents");

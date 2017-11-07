@@ -11,15 +11,15 @@ import UIKit
 
 class FadingImageView : UIImageView {
 
-    var firstImage :UIImage = UIImage(named:"animal_0")!;
+    @objc var firstImage :UIImage = UIImage(named:"animal_0")!;
 
-    var secondImage:UIImage = UIImage(named:"animal_1")!;
+    @objc var secondImage:UIImage = UIImage(named:"animal_1")!;
 
-    var loadThread : Timer!;
-    var fadeThread : Timer!;
-    var sizeThread : Timer!;
+    @objc var loadThread : Timer!;
+    @objc var fadeThread : Timer!;
+    @objc var sizeThread : Timer!;
 
-    let loadDelay_s : Double = 0.5;
+    @objc let loadDelay_s : Double = 0.5;
 
     enum SIZEMODE { case increasing, decreasing }
     
@@ -51,7 +51,7 @@ class FadingImageView : UIImageView {
     }
     
     
-    func init_load() {
+    @objc func init_load() {
 
         print("Loading after a delay");
         
@@ -65,7 +65,7 @@ class FadingImageView : UIImageView {
     }
     
     
-    func incr_fade_step() {
+    @objc func incr_fade_step() {
 
         var newAlpha:CGFloat = self.alpha;
         
@@ -90,7 +90,7 @@ class FadingImageView : UIImageView {
     }
 
 
-    func incr_size_step() {
+    @objc func incr_size_step() {
         
         //Get curr frame
         let currFrame:CGRect = self.frame;

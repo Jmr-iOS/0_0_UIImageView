@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 
     
     //the plain, simple load
-    func loadImage(_ view:UIView, imageStr:String) {
+    @objc func loadImage(_ view:UIView, imageStr:String) {
         
         let width  : CGFloat = 206;
         let height : CGFloat = 190;
@@ -65,7 +65,7 @@ class ViewController: UIViewController {
     //apply a color to an image
     //ref - http://stackoverflow.com/questions/28427935/how-can-i-change-image-tintcolor
     //ref - https://www.captechconsulting.com/blogs/ios-7-tutorial-series-tint-color-and-easy-app-theming
-    func getTintedImage() -> UIImageView {
+    @objc func getTintedImage() -> UIImageView {
         
         var image     : UIImage;
         var imageView : UIImageView;
@@ -92,7 +92,7 @@ class ViewController: UIViewController {
 
 
     //scale the image from 0 to 1 on scale input
-    func getScaledImage(_ scale : CGFloat) -> UIImageView {
+    @objc func getScaledImage(_ scale : CGFloat) -> UIImageView {
         var image     : UIImage;
         var tempImageView : UIImageView;
         

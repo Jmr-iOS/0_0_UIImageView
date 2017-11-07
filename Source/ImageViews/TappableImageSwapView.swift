@@ -11,14 +11,14 @@ import UIKit
 
 class TappableImageSwapView : UIImageView {
 
-    var firstImage :UIImage = UIImage(named:"one")!;
+    @objc var firstImage :UIImage = UIImage(named:"one")!;
 
-    var secondImage:UIImage = UIImage(named:"two")!;
+    @objc var secondImage:UIImage = UIImage(named:"two")!;
 
-    var loadThread : Timer!;
-    var fadeThread : Timer!;
+    @objc var loadThread : Timer!;
+    @objc var fadeThread : Timer!;
     
-    let loadDelay_s : Double = 0.5;
+    @objc let loadDelay_s : Double = 0.5;
 
     
     required init?(coder aDecoder: NSCoder) {
@@ -39,7 +39,7 @@ class TappableImageSwapView : UIImageView {
     }
     
 
-    func addTapRecognizer() {
+    @objc func addTapRecognizer() {
         
         let tapRecognizer : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(TappableImageSwapView.handleTap(_:)));
         
@@ -55,7 +55,7 @@ class TappableImageSwapView : UIImageView {
     }
 
   
-    func handleTap(_ recognizer:UITapGestureRecognizer) {
+    @objc func handleTap(_ recognizer:UITapGestureRecognizer) {
         
         //Swap w/Fade
         let fadeAnim:CABasicAnimation = CABasicAnimation(keyPath: "contents");
