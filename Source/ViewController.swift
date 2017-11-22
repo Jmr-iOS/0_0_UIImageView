@@ -5,6 +5,12 @@
 //  URL: http://stackoverflow.com/questions/11355671/how-do-i-implement-the-uitapgesturerecognizer-into-my-application
 //  URL: https://developer.apple.com/library/ios/documentation/EventHandling/Conceptual/EventHandlingiPhoneOS/GestureRecognizer_basics/GestureRecognizer_basics.html
 //
+//  @section    Opens
+//      File Headers
+//      Function Headers
+//      Image size auto-detected & applied
+//      loadImage() uses imageStr (B)
+//      loadImage() loads image size directly (B)
 
 import UIKit
 
