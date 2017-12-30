@@ -7,25 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0192E4C1D10FCA500DCD467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0192E4A1D10FCA500DCD467 /* AppDelegate.swift */; };
-		D0192E4D1D10FCA500DCD467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0192E4B1D10FCA500DCD467 /* ViewController.swift */; };
-		D0192E511D10FCD600DCD467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0192E4E1D10FCD600DCD467 /* Assets.xcassets */; };
-		D0192E531D10FCD600DCD467 /* Stdcomments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0192E501D10FCD600DCD467 /* Stdcomments.swift */; };
-		D09FA72A1FB179630059DA5F /* FadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA7271FB179630059DA5F /* FadingImageView.swift */; };
-		D09FA72B1FB179630059DA5F /* TappableImageSwapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA7281FB179630059DA5F /* TappableImageSwapView.swift */; };
-		D09FA72C1FB179630059DA5F /* TappableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09FA7291FB179630059DA5F /* TappableImageView.swift */; };
+		D04F50FC1FF8066400A8C7B3 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D04F50F51FF8066400A8C7B3 /* Base.lproj */; };
+		D04F50FE1FF8066400A8C7B3 /* Stdcomments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F50F71FF8066400A8C7B3 /* Stdcomments.swift */; };
+		D04F50FF1FF8066400A8C7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04F50FB1FF8066400A8C7B3 /* Assets.xcassets */; };
+		D04F51021FF8067C00A8C7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F51001FF8067C00A8C7B3 /* ViewController.swift */; };
+		D04F51031FF8067C00A8C7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F51011FF8067C00A8C7B3 /* AppDelegate.swift */; };
+		D04F51081FF8069000A8C7B3 /* FadingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F51051FF8069000A8C7B3 /* FadingImageView.swift */; };
+		D04F51091FF8069000A8C7B3 /* TappableImageSwapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F51061FF8069000A8C7B3 /* TappableImageSwapView.swift */; };
+		D04F510A1FF8069000A8C7B3 /* TappableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F51071FF8069000A8C7B3 /* TappableImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D0192E4A1D10FCA500DCD467 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Source/AppDelegate.swift; sourceTree = "<group>"; };
-		D0192E4B1D10FCA500DCD467 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Source/ViewController.swift; sourceTree = "<group>"; };
-		D0192E4E1D10FCD600DCD467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Source/Assets.xcassets; sourceTree = "<group>"; };
-		D0192E4F1D10FCD600DCD467 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
-		D0192E501D10FCD600DCD467 /* Stdcomments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stdcomments.swift; path = Source/Stdcomments.swift; sourceTree = "<group>"; };
 		D039B4B61BF4D7950024005F /* 0_0 - UIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0_0 - UIImageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D09FA7271FB179630059DA5F /* FadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadingImageView.swift; path = Source/ImageViews/FadingImageView.swift; sourceTree = SOURCE_ROOT; };
-		D09FA7281FB179630059DA5F /* TappableImageSwapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TappableImageSwapView.swift; path = Source/ImageViews/TappableImageSwapView.swift; sourceTree = SOURCE_ROOT; };
-		D09FA7291FB179630059DA5F /* TappableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TappableImageView.swift; path = Source/ImageViews/TappableImageView.swift; sourceTree = SOURCE_ROOT; };
+		D04F50F51FF8066400A8C7B3 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		D04F50F61FF8066400A8C7B3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D04F50F71FF8066400A8C7B3 /* Stdcomments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stdcomments.swift; sourceTree = "<group>"; };
+		D04F50FB1FF8066400A8C7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D04F51001FF8067C00A8C7B3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		D04F51011FF8067C00A8C7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		D04F51051FF8069000A8C7B3 /* FadingImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FadingImageView.swift; path = ../ImageViews/FadingImageView.swift; sourceTree = "<group>"; };
+		D04F51061FF8069000A8C7B3 /* TappableImageSwapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TappableImageSwapView.swift; path = ../ImageViews/TappableImageSwapView.swift; sourceTree = "<group>"; };
+		D04F51071FF8069000A8C7B3 /* TappableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TappableImageView.swift; path = ../ImageViews/TappableImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,9 +44,11 @@
 		D0192E491D10FC4B00DCD467 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D0192E4E1D10FCD600DCD467 /* Assets.xcassets */,
-				D0192E4F1D10FCD600DCD467 /* Info.plist */,
-				D0192E501D10FCD600DCD467 /* Stdcomments.swift */,
+				D039B4B71BF4D7950024005F /* Products */,
+				D04F50FB1FF8066400A8C7B3 /* Assets.xcassets */,
+				D04F50F51FF8066400A8C7B3 /* Base.lproj */,
+				D04F50F61FF8066400A8C7B3 /* Info.plist */,
+				D04F50F71FF8066400A8C7B3 /* Stdcomments.swift */,
 			);
 			name = Base;
 			sourceTree = "<group>";
@@ -52,11 +56,10 @@
 		D039B4AD1BF4D7950024005F = {
 			isa = PBXGroup;
 			children = (
-				D0192E4A1D10FCA500DCD467 /* AppDelegate.swift */,
-				D0192E4B1D10FCA500DCD467 /* ViewController.swift */,
-				D09FA7261FB179500059DA5F /* ImageViews */,
 				D0192E491D10FC4B00DCD467 /* Base */,
-				D039B4B71BF4D7950024005F /* Products */,
+				D04F51041FF8068300A8C7B3 /* ImageViews */,
+				D04F51011FF8067C00A8C7B3 /* AppDelegate.swift */,
+				D04F51001FF8067C00A8C7B3 /* ViewController.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,14 +71,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D09FA7261FB179500059DA5F /* ImageViews */ = {
+		D04F51041FF8068300A8C7B3 /* ImageViews */ = {
 			isa = PBXGroup;
 			children = (
-				D09FA7271FB179630059DA5F /* FadingImageView.swift */,
-				D09FA7281FB179630059DA5F /* TappableImageSwapView.swift */,
-				D09FA7291FB179630059DA5F /* TappableImageView.swift */,
+				D04F51051FF8069000A8C7B3 /* FadingImageView.swift */,
+				D04F51061FF8069000A8C7B3 /* TappableImageSwapView.swift */,
+				D04F51071FF8069000A8C7B3 /* TappableImageView.swift */,
 			);
-			path = ImageViews;
+			name = ImageViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +141,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0192E511D10FCD600DCD467 /* Assets.xcassets in Resources */,
+				D04F50FF1FF8066400A8C7B3 /* Assets.xcassets in Resources */,
+				D04F50FC1FF8066400A8C7B3 /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,12 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D09FA72B1FB179630059DA5F /* TappableImageSwapView.swift in Sources */,
-				D0192E4C1D10FCA500DCD467 /* AppDelegate.swift in Sources */,
-				D0192E4D1D10FCA500DCD467 /* ViewController.swift in Sources */,
-				D09FA72C1FB179630059DA5F /* TappableImageView.swift in Sources */,
-				D0192E531D10FCD600DCD467 /* Stdcomments.swift in Sources */,
-				D09FA72A1FB179630059DA5F /* FadingImageView.swift in Sources */,
+				D04F51091FF8069000A8C7B3 /* TappableImageSwapView.swift in Sources */,
+				D04F51031FF8067C00A8C7B3 /* AppDelegate.swift in Sources */,
+				D04F51021FF8067C00A8C7B3 /* ViewController.swift in Sources */,
+				D04F510A1FF8069000A8C7B3 /* TappableImageView.swift in Sources */,
+				D04F50FE1FF8066400A8C7B3 /* Stdcomments.swift in Sources */,
+				D04F51081FF8069000A8C7B3 /* FadingImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +268,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -277,7 +282,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
-				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
