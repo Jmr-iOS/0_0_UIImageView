@@ -33,9 +33,9 @@ class ViewController: UIViewController {
         
         //#3 - Fade (general)
         self.view.addSubview(FadingImageView(frame:CGRect(x: (375-200)/2, y: 350, width: 200, height: 200)));
-
-        //#4 - Scaled Image
-        self.view.addSubview(self.getScaledImage(0.2));         //put any positive number desired here. Best examples are 0.2, 0.4 & 2.0
+        
+        //#4 - Scaled ImageView
+        self.view.addSubview(self.getScaledImageView(0.2));
 
         //#5 - Colored Image
         self.view.addSubview(self.getTintedImage());
@@ -98,9 +98,9 @@ class ViewController: UIViewController {
 
 
     //scale the image from 0 to 1 on scale input
-    @objc func getScaledImage(_ scale : CGFloat) -> UIImageView {
+    @objc func getScaledImageView(_ scale : CGFloat) -> UIImageView {
         var image     : UIImage;
-        var tempImageView : UIImageView;
+        var imageView : UIImageView;
         
         let xCoord : CGFloat = (UIScreen.main.bounds.width-86)/2 - 100;         /* offset '-100' to the right of center     */
 
@@ -109,17 +109,17 @@ class ViewController: UIViewController {
         let newWidth  : CGFloat = scale * image.size.width;
         let newHeight : CGFloat = scale * image.size.height;
         
-//      print("Current Image Size is \(image.size.width), \(image.size.height)");
-//      print("    New Image Size is \(newWidth), \(newHeight)");
+        //print("Current Image Size is \(image.size.width), \(image.size.height)");
+        //print("    New Image Size is \(newWidth), \(newHeight)");
 
-        tempImageView       = UIImageView();
-        tempImageView.image = image.withRenderingMode(UIImageRenderingMode.automatic);
+        imageView       = UIImageView();
+        imageView.image = image.withRenderingMode(UIImageRenderingMode.automatic);
         
-        tempImageView.contentMode = .scaleAspectFit;
+        imageView.contentMode = .scaleAspectFit;
         
-        tempImageView.frame = CGRect(x: xCoord, y: 600, width: newWidth, height: newHeight);
+        imageView.frame = CGRect(x: xCoord, y: 600, width: newWidth, height: newHeight);
         
-        return tempImageView;
+        return imageView;
     }
 
 
@@ -130,3 +130,25 @@ class ViewController: UIViewController {
     }
 }
 
+
+//@brief    Allow Re-sizing of image directly
+//@ref      https://stackoverflow.com/questions/2658738/the-simplest-way-to-resize-an-uiimage
+extension UIImage {
+    
+    func scaledImage(withSize size: CGSize) -> UIImage {
+        UIGraphicsBeginImageContextWithOptions(size, false, 0.0);
+        defer { UIGraphicsEndImageContext(); }
+        draw(in: CGRect(x: 0.0, y: 0.0, width: size.width, height: size.height));
+        return UIGraphicsGetImageFromCurrentImageContext()!;
+    }
+    
+    func scaleImageToFitSize(size: CGSize) -> UIImage {
+        let aspect = self.size.width / self.size.height;
+        if size.width / aspect <= size.height {
+            return scaledImage(withSize: CGSize(width: size.width, height: size.width / aspect));
+        } else {
+            return scaledImage(withSize: CGSize(width: size.height * aspect, height: size.height));
+        }
+    }
+    
+}
