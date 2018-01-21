@@ -7,8 +7,87 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01942D72014E5D40021FF8B /* 06-blackpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = D019428A2014E5CC0021FF8B /* 06-blackpaper.png */; };
+		D01942D82014E5D40021FF8B /* 009-subtle-light-patterns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D019428B2014E5CC0021FF8B /* 009-subtle-light-patterns.jpg */; };
+		D01942D92014E5D40021FF8B /* 005-wood-grain.png in Resources */ = {isa = PBXBuildFile; fileRef = D019428C2014E5CC0021FF8B /* 005-wood-grain.png */; };
+		D01942DA2014E5D40021FF8B /* Background_02.png in Resources */ = {isa = PBXBuildFile; fileRef = D019428D2014E5CC0021FF8B /* Background_02.png */; };
+		D01942DB2014E5D40021FF8B /* 07-Rigid-Granite.png in Resources */ = {isa = PBXBuildFile; fileRef = D019428E2014E5CC0021FF8B /* 07-Rigid-Granite.png */; };
+		D01942DC2014E5D40021FF8B /* Melamine-wood-004.png in Resources */ = {isa = PBXBuildFile; fileRef = D019428F2014E5CC0021FF8B /* Melamine-wood-004.png */; };
+		D01942DD2014E5D40021FF8B /* 006-Paper-Kraft.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942902014E5CC0021FF8B /* 006-Paper-Kraft.png */; };
+		D01942DE2014E5D40021FF8B /* 05-white-brick.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942912014E5CC0021FF8B /* 05-white-brick.png */; };
+		D01942DF2014E5D40021FF8B /* 004-Fantasy-Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942922014E5CC0021FF8B /* 004-Fantasy-Paper.png */; };
+		D01942E02014E5D40021FF8B /* 006-subtle-light-patterns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942932014E5CC0021FF8B /* 006-subtle-light-patterns.jpg */; };
+		D01942E12014E5D40021FF8B /* 02-whitepaper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942942014E5CC0021FF8B /* 02-whitepaper.png */; };
+		D01942E22014E5D40021FF8B /* 004-polished-wood.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942952014E5CC0021FF8B /* 004-polished-wood.png */; };
+		D01942E32014E5D40021FF8B /* dark-hardback.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942962014E5CC0021FF8B /* dark-hardback.png */; };
+		D01942E42014E5D40021FF8B /* 02-Cream-Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942972014E5CC0021FF8B /* 02-Cream-Paper.png */; };
+		D01942E52014E5D40021FF8B /* 005-subtle-light-patterns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942982014E5CC0021FF8B /* 005-subtle-light-patterns.jpg */; };
+		D01942E62014E5D40021FF8B /* Melamine-wood-003.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942992014E5CD0021FF8B /* Melamine-wood-003.png */; };
+		D01942E72014E5D40021FF8B /* 04-Soft-Cloth.png in Resources */ = {isa = PBXBuildFile; fileRef = D019429A2014E5CD0021FF8B /* 04-Soft-Cloth.png */; };
+		D01942E82014E5D40021FF8B /* 05-blackpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = D019429B2014E5CD0021FF8B /* 05-blackpaper.png */; };
+		D01942E92014E5D40021FF8B /* dark-planingwood.png in Resources */ = {isa = PBXBuildFile; fileRef = D019429C2014E5CD0021FF8B /* dark-planingwood.png */; };
+		D01942EA2014E5D40021FF8B /* 001-subtle-light-pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D019429D2014E5CD0021FF8B /* 001-subtle-light-pattern.jpg */; };
+		D01942EB2014E5D40021FF8B /* Background_01.png in Resources */ = {isa = PBXBuildFile; fileRef = D019429E2014E5CD0021FF8B /* Background_01.png */; };
+		D01942EC2014E5D40021FF8B /* 01-whitepaper.png in Resources */ = {isa = PBXBuildFile; fileRef = D019429F2014E5CD0021FF8B /* 01-whitepaper.png */; };
+		D01942ED2014E5D40021FF8B /* 02-heavy-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942A02014E5CD0021FF8B /* 02-heavy-paper.png */; };
+		D01942EE2014E5D40021FF8B /* dark-hardleather.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942A12014E5CD0021FF8B /* dark-hardleather.png */; };
+		D01942EF2014E5D40021FF8B /* 003-subtle-light-pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942A22014E5CD0021FF8B /* 003-subtle-light-pattern.jpg */; };
+		D01942F02014E5D40021FF8B /* dark-heavypaper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942A32014E5CD0021FF8B /* dark-heavypaper.png */; };
+		D01942F12014E5D40021FF8B /* 010-subtle-light-patterns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942A42014E5CD0021FF8B /* 010-subtle-light-patterns.jpg */; };
+		D01942F22014E5D40021FF8B /* 001-wrinkled-wall.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942A52014E5CD0021FF8B /* 001-wrinkled-wall.png */; };
+		D01942F32014E5D40021FF8B /* 04-blackpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942A62014E5CD0021FF8B /* 04-blackpaper.png */; };
+		D01942F42014E5D40021FF8B /* dark-stripedsuede.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942A72014E5CE0021FF8B /* dark-stripedsuede.png */; };
+		D01942F52014E5D40021FF8B /* Melamine-wood-005.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942A82014E5CE0021FF8B /* Melamine-wood-005.png */; };
+		D01942F62014E5D40021FF8B /* Melamine-wood-002.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942A92014E5CE0021FF8B /* Melamine-wood-002.png */; };
+		D01942F72014E5D40021FF8B /* 002-subtle-light-pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942AA2014E5CE0021FF8B /* 002-subtle-light-pattern.jpg */; };
+		D01942F82014E5D40021FF8B /* 05-Cork.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942AB2014E5CE0021FF8B /* 05-Cork.png */; };
+		D01942F92014E5D40021FF8B /* dark-concrete.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942AC2014E5CE0021FF8B /* dark-concrete.png */; };
+		D01942FA2014E5D40021FF8B /* dark-fabric.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942AD2014E5CE0021FF8B /* dark-fabric.png */; };
+		D01942FB2014E5D40021FF8B /* 03-light-carpet.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942AE2014E5CE0021FF8B /* 03-light-carpet.png */; };
+		D01942FC2014E5D40021FF8B /* dark-grungewall.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942AF2014E5CE0021FF8B /* dark-grungewall.png */; };
+		D01942FD2014E5D40021FF8B /* 012-subtle-light-patterns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942B02014E5CF0021FF8B /* 012-subtle-light-patterns.jpg */; };
+		D01942FE2014E5D40021FF8B /* 002-Watercolor-Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942B12014E5CF0021FF8B /* 002-Watercolor-Paper.png */; };
+		D01942FF2014E5D40021FF8B /* 008-subtle-light-patterns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942B22014E5CF0021FF8B /* 008-subtle-light-patterns.jpg */; };
+		D01943002014E5D40021FF8B /* 006-fine-plaster.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942B32014E5CF0021FF8B /* 006-fine-plaster.png */; };
+		D01943012014E5D40021FF8B /* 06-white-cardboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942B42014E5CF0021FF8B /* 06-white-cardboard.png */; };
+		D01943022014E5D40021FF8B /* 008-cover-book.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942B52014E5D00021FF8B /* 008-cover-book.png */; };
+		D01943032014E5D40021FF8B /* 005-Grunge-Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942B62014E5D00021FF8B /* 005-Grunge-Paper.png */; };
+		D01943042014E5D40021FF8B /* 03_Wall_pattern_background_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942B72014E5D00021FF8B /* 03_Wall_pattern_background_texture.png */; };
+		D01943052014E5D40021FF8B /* 04-polish-wood.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942B82014E5D00021FF8B /* 04-polish-wood.png */; };
+		D01943062014E5D40021FF8B /* 02_Wall_pattern_background_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942B92014E5D00021FF8B /* 02_Wall_pattern_background_texture.png */; };
+		D01943072014E5D40021FF8B /* dark-suede.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942BA2014E5D00021FF8B /* dark-suede.png */; };
+		D01943082014E5D40021FF8B /* Melamine-wood-001.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942BB2014E5D00021FF8B /* Melamine-wood-001.png */; };
+		D01943092014E5D40021FF8B /* 001-Basik-Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942BC2014E5D00021FF8B /* 001-Basik-Paper.png */; };
+		D019430A2014E5D40021FF8B /* 002-sandblasting.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942BD2014E5D00021FF8B /* 002-sandblasting.png */; };
+		D019430B2014E5D40021FF8B /* dark-coverbook.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942BE2014E5D10021FF8B /* dark-coverbook.png */; };
+		D019430C2014E5D40021FF8B /* 003-granulated-loom.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942BF2014E5D10021FF8B /* 003-granulated-loom.png */; };
+		D019430D2014E5D40021FF8B /* 03-whitepaper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942C02014E5D10021FF8B /* 03-whitepaper.png */; };
+		D019430E2014E5D40021FF8B /* 01-fabric-shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942C12014E5D10021FF8B /* 01-fabric-shirt.png */; };
+		D019430F2014E5D40021FF8B /* 08-Wallpaper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942C22014E5D10021FF8B /* 08-Wallpaper.png */; };
+		D01943102014E5D40021FF8B /* dark-wood.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942C32014E5D10021FF8B /* dark-wood.png */; };
+		D01943112014E5D40021FF8B /* Melamine-wood-006.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942C42014E5D10021FF8B /* Melamine-wood-006.png */; };
+		D01943122014E5D40021FF8B /* dark-blackboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942C52014E5D10021FF8B /* dark-blackboard.png */; };
+		D01943132014E5D40021FF8B /* Background_04.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942C62014E5D20021FF8B /* Background_04.png */; };
+		D01943142014E5D40021FF8B /* dark-softcloth.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942C72014E5D20021FF8B /* dark-softcloth.png */; };
+		D01943152014E5D40021FF8B /* 011-subtle-light-patterns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942C82014E5D20021FF8B /* 011-subtle-light-patterns.jpg */; };
+		D01943162014E5D40021FF8B /* Background_03.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942C92014E5D20021FF8B /* Background_03.png */; };
+		D01943172014E5D40021FF8B /* 003-Brown-Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942CA2014E5D20021FF8B /* 003-Brown-Paper.png */; };
+		D01943182014E5D40021FF8B /* 03-Tile-Hail.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942CB2014E5D20021FF8B /* 03-Tile-Hail.png */; };
+		D01943192014E5D40021FF8B /* 004-subtle-light-pattern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942CC2014E5D20021FF8B /* 004-subtle-light-pattern.jpg */; };
+		D019431A2014E5D40021FF8B /* 06-Granite.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942CD2014E5D20021FF8B /* 06-Granite.png */; };
+		D019431B2014E5D40021FF8B /* dark-hardtissue.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942CE2014E5D20021FF8B /* dark-hardtissue.png */; };
+		D019431C2014E5D40021FF8B /* 007-subtle-light-patterns.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D01942CF2014E5D30021FF8B /* 007-subtle-light-patterns.jpg */; };
+		D019431D2014E5D40021FF8B /* 01-Stiff-Paper.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942D02014E5D30021FF8B /* 01-Stiff-Paper.png */; };
+		D019431E2014E5D40021FF8B /* dark-cardboard.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942D12014E5D30021FF8B /* dark-cardboard.png */; };
+		D019431F2014E5D40021FF8B /* 017-Subtle-light-patterns-Vol04.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942D22014E5D30021FF8B /* 017-Subtle-light-patterns-Vol04.png */; };
+		D01943202014E5D40021FF8B /* 018-Subtle-light-patterns-Vol04.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942D32014E5D30021FF8B /* 018-Subtle-light-patterns-Vol04.png */; };
+		D01943212014E5D40021FF8B /* 019-Subtle-light-patterns-Vol04.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942D42014E5D30021FF8B /* 019-Subtle-light-patterns-Vol04.png */; };
+		D01943222014E5D40021FF8B /* 020-Subtle-light-patterns-Vol04.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942D52014E5D30021FF8B /* 020-Subtle-light-patterns-Vol04.png */; };
+		D01943232014E5D40021FF8B /* 007-dark-loom.png in Resources */ = {isa = PBXBuildFile; fileRef = D01942D62014E5D40021FF8B /* 007-dark-loom.png */; };
+		D01943272014E61B0021FF8B /* Empty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01943242014E61B0021FF8B /* Empty.storyboard */; };
+		D01943282014E61B0021FF8B /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01943252014E61B0021FF8B /* NewClass.swift */; };
+		D01943292014E61B0021FF8B /* Stdcomments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01943262014E61B0021FF8B /* Stdcomments.swift */; };
 		D04F50FC1FF8066400A8C7B3 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D04F50F51FF8066400A8C7B3 /* Base.lproj */; };
-		D04F50FE1FF8066400A8C7B3 /* Stdcomments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F50F71FF8066400A8C7B3 /* Stdcomments.swift */; };
 		D04F50FF1FF8066400A8C7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04F50FB1FF8066400A8C7B3 /* Assets.xcassets */; };
 		D04F51021FF8067C00A8C7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F51001FF8067C00A8C7B3 /* ViewController.swift */; };
 		D04F51031FF8067C00A8C7B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F51011FF8067C00A8C7B3 /* AppDelegate.swift */; };
@@ -18,10 +97,89 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D019428A2014E5CC0021FF8B /* 06-blackpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "06-blackpaper.png"; path = "../Doc/Images/06-blackpaper.png"; sourceTree = "<group>"; };
+		D019428B2014E5CC0021FF8B /* 009-subtle-light-patterns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "009-subtle-light-patterns.jpg"; path = "../Doc/Images/009-subtle-light-patterns.jpg"; sourceTree = "<group>"; };
+		D019428C2014E5CC0021FF8B /* 005-wood-grain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "005-wood-grain.png"; path = "../Doc/Images/005-wood-grain.png"; sourceTree = "<group>"; };
+		D019428D2014E5CC0021FF8B /* Background_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background_02.png; path = ../Doc/Images/Background_02.png; sourceTree = "<group>"; };
+		D019428E2014E5CC0021FF8B /* 07-Rigid-Granite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "07-Rigid-Granite.png"; path = "../Doc/Images/07-Rigid-Granite.png"; sourceTree = "<group>"; };
+		D019428F2014E5CC0021FF8B /* Melamine-wood-004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Melamine-wood-004.png"; path = "../Doc/Images/Melamine-wood-004.png"; sourceTree = "<group>"; };
+		D01942902014E5CC0021FF8B /* 006-Paper-Kraft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "006-Paper-Kraft.png"; path = "../Doc/Images/006-Paper-Kraft.png"; sourceTree = "<group>"; };
+		D01942912014E5CC0021FF8B /* 05-white-brick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-white-brick.png"; path = "../Doc/Images/05-white-brick.png"; sourceTree = "<group>"; };
+		D01942922014E5CC0021FF8B /* 004-Fantasy-Paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "004-Fantasy-Paper.png"; path = "../Doc/Images/004-Fantasy-Paper.png"; sourceTree = "<group>"; };
+		D01942932014E5CC0021FF8B /* 006-subtle-light-patterns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "006-subtle-light-patterns.jpg"; path = "../Doc/Images/006-subtle-light-patterns.jpg"; sourceTree = "<group>"; };
+		D01942942014E5CC0021FF8B /* 02-whitepaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02-whitepaper.png"; path = "../Doc/Images/02-whitepaper.png"; sourceTree = "<group>"; };
+		D01942952014E5CC0021FF8B /* 004-polished-wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "004-polished-wood.png"; path = "../Doc/Images/004-polished-wood.png"; sourceTree = "<group>"; };
+		D01942962014E5CC0021FF8B /* dark-hardback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-hardback.png"; path = "../Doc/Images/dark-hardback.png"; sourceTree = "<group>"; };
+		D01942972014E5CC0021FF8B /* 02-Cream-Paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02-Cream-Paper.png"; path = "../Doc/Images/02-Cream-Paper.png"; sourceTree = "<group>"; };
+		D01942982014E5CC0021FF8B /* 005-subtle-light-patterns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "005-subtle-light-patterns.jpg"; path = "../Doc/Images/005-subtle-light-patterns.jpg"; sourceTree = "<group>"; };
+		D01942992014E5CD0021FF8B /* Melamine-wood-003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Melamine-wood-003.png"; path = "../Doc/Images/Melamine-wood-003.png"; sourceTree = "<group>"; };
+		D019429A2014E5CD0021FF8B /* 04-Soft-Cloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "04-Soft-Cloth.png"; path = "../Doc/Images/04-Soft-Cloth.png"; sourceTree = "<group>"; };
+		D019429B2014E5CD0021FF8B /* 05-blackpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-blackpaper.png"; path = "../Doc/Images/05-blackpaper.png"; sourceTree = "<group>"; };
+		D019429C2014E5CD0021FF8B /* dark-planingwood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-planingwood.png"; path = "../Doc/Images/dark-planingwood.png"; sourceTree = "<group>"; };
+		D019429D2014E5CD0021FF8B /* 001-subtle-light-pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "001-subtle-light-pattern.jpg"; path = "../Doc/Images/001-subtle-light-pattern.jpg"; sourceTree = "<group>"; };
+		D019429E2014E5CD0021FF8B /* Background_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background_01.png; path = ../Doc/Images/Background_01.png; sourceTree = "<group>"; };
+		D019429F2014E5CD0021FF8B /* 01-whitepaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-whitepaper.png"; path = "../Doc/Images/01-whitepaper.png"; sourceTree = "<group>"; };
+		D01942A02014E5CD0021FF8B /* 02-heavy-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "02-heavy-paper.png"; path = "../Doc/Images/02-heavy-paper.png"; sourceTree = "<group>"; };
+		D01942A12014E5CD0021FF8B /* dark-hardleather.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-hardleather.png"; path = "../Doc/Images/dark-hardleather.png"; sourceTree = "<group>"; };
+		D01942A22014E5CD0021FF8B /* 003-subtle-light-pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "003-subtle-light-pattern.jpg"; path = "../Doc/Images/003-subtle-light-pattern.jpg"; sourceTree = "<group>"; };
+		D01942A32014E5CD0021FF8B /* dark-heavypaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-heavypaper.png"; path = "../Doc/Images/dark-heavypaper.png"; sourceTree = "<group>"; };
+		D01942A42014E5CD0021FF8B /* 010-subtle-light-patterns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "010-subtle-light-patterns.jpg"; path = "../Doc/Images/010-subtle-light-patterns.jpg"; sourceTree = "<group>"; };
+		D01942A52014E5CD0021FF8B /* 001-wrinkled-wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "001-wrinkled-wall.png"; path = "../Doc/Images/001-wrinkled-wall.png"; sourceTree = "<group>"; };
+		D01942A62014E5CD0021FF8B /* 04-blackpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "04-blackpaper.png"; path = "../Doc/Images/04-blackpaper.png"; sourceTree = "<group>"; };
+		D01942A72014E5CE0021FF8B /* dark-stripedsuede.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-stripedsuede.png"; path = "../Doc/Images/dark-stripedsuede.png"; sourceTree = "<group>"; };
+		D01942A82014E5CE0021FF8B /* Melamine-wood-005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Melamine-wood-005.png"; path = "../Doc/Images/Melamine-wood-005.png"; sourceTree = "<group>"; };
+		D01942A92014E5CE0021FF8B /* Melamine-wood-002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Melamine-wood-002.png"; path = "../Doc/Images/Melamine-wood-002.png"; sourceTree = "<group>"; };
+		D01942AA2014E5CE0021FF8B /* 002-subtle-light-pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "002-subtle-light-pattern.jpg"; path = "../Doc/Images/002-subtle-light-pattern.jpg"; sourceTree = "<group>"; };
+		D01942AB2014E5CE0021FF8B /* 05-Cork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "05-Cork.png"; path = "../Doc/Images/05-Cork.png"; sourceTree = "<group>"; };
+		D01942AC2014E5CE0021FF8B /* dark-concrete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-concrete.png"; path = "../Doc/Images/dark-concrete.png"; sourceTree = "<group>"; };
+		D01942AD2014E5CE0021FF8B /* dark-fabric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-fabric.png"; path = "../Doc/Images/dark-fabric.png"; sourceTree = "<group>"; };
+		D01942AE2014E5CE0021FF8B /* 03-light-carpet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-light-carpet.png"; path = "../Doc/Images/03-light-carpet.png"; sourceTree = "<group>"; };
+		D01942AF2014E5CE0021FF8B /* dark-grungewall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-grungewall.png"; path = "../Doc/Images/dark-grungewall.png"; sourceTree = "<group>"; };
+		D01942B02014E5CF0021FF8B /* 012-subtle-light-patterns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "012-subtle-light-patterns.jpg"; path = "../Doc/Images/012-subtle-light-patterns.jpg"; sourceTree = "<group>"; };
+		D01942B12014E5CF0021FF8B /* 002-Watercolor-Paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "002-Watercolor-Paper.png"; path = "../Doc/Images/002-Watercolor-Paper.png"; sourceTree = "<group>"; };
+		D01942B22014E5CF0021FF8B /* 008-subtle-light-patterns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "008-subtle-light-patterns.jpg"; path = "../Doc/Images/008-subtle-light-patterns.jpg"; sourceTree = "<group>"; };
+		D01942B32014E5CF0021FF8B /* 006-fine-plaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "006-fine-plaster.png"; path = "../Doc/Images/006-fine-plaster.png"; sourceTree = "<group>"; };
+		D01942B42014E5CF0021FF8B /* 06-white-cardboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "06-white-cardboard.png"; path = "../Doc/Images/06-white-cardboard.png"; sourceTree = "<group>"; };
+		D01942B52014E5D00021FF8B /* 008-cover-book.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "008-cover-book.png"; path = "../Doc/Images/008-cover-book.png"; sourceTree = "<group>"; };
+		D01942B62014E5D00021FF8B /* 005-Grunge-Paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "005-Grunge-Paper.png"; path = "../Doc/Images/005-Grunge-Paper.png"; sourceTree = "<group>"; };
+		D01942B72014E5D00021FF8B /* 03_Wall_pattern_background_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03_Wall_pattern_background_texture.png; path = ../Doc/Images/03_Wall_pattern_background_texture.png; sourceTree = "<group>"; };
+		D01942B82014E5D00021FF8B /* 04-polish-wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "04-polish-wood.png"; path = "../Doc/Images/04-polish-wood.png"; sourceTree = "<group>"; };
+		D01942B92014E5D00021FF8B /* 02_Wall_pattern_background_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02_Wall_pattern_background_texture.png; path = ../Doc/Images/02_Wall_pattern_background_texture.png; sourceTree = "<group>"; };
+		D01942BA2014E5D00021FF8B /* dark-suede.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-suede.png"; path = "../Doc/Images/dark-suede.png"; sourceTree = "<group>"; };
+		D01942BB2014E5D00021FF8B /* Melamine-wood-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Melamine-wood-001.png"; path = "../Doc/Images/Melamine-wood-001.png"; sourceTree = "<group>"; };
+		D01942BC2014E5D00021FF8B /* 001-Basik-Paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "001-Basik-Paper.png"; path = "../Doc/Images/001-Basik-Paper.png"; sourceTree = "<group>"; };
+		D01942BD2014E5D00021FF8B /* 002-sandblasting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "002-sandblasting.png"; path = "../Doc/Images/002-sandblasting.png"; sourceTree = "<group>"; };
+		D01942BE2014E5D10021FF8B /* dark-coverbook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-coverbook.png"; path = "../Doc/Images/dark-coverbook.png"; sourceTree = "<group>"; };
+		D01942BF2014E5D10021FF8B /* 003-granulated-loom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "003-granulated-loom.png"; path = "../Doc/Images/003-granulated-loom.png"; sourceTree = "<group>"; };
+		D01942C02014E5D10021FF8B /* 03-whitepaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-whitepaper.png"; path = "../Doc/Images/03-whitepaper.png"; sourceTree = "<group>"; };
+		D01942C12014E5D10021FF8B /* 01-fabric-shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-fabric-shirt.png"; path = "../Doc/Images/01-fabric-shirt.png"; sourceTree = "<group>"; };
+		D01942C22014E5D10021FF8B /* 08-Wallpaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "08-Wallpaper.png"; path = "../Doc/Images/08-Wallpaper.png"; sourceTree = "<group>"; };
+		D01942C32014E5D10021FF8B /* dark-wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-wood.png"; path = "../Doc/Images/dark-wood.png"; sourceTree = "<group>"; };
+		D01942C42014E5D10021FF8B /* Melamine-wood-006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Melamine-wood-006.png"; path = "../Doc/Images/Melamine-wood-006.png"; sourceTree = "<group>"; };
+		D01942C52014E5D10021FF8B /* dark-blackboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-blackboard.png"; path = "../Doc/Images/dark-blackboard.png"; sourceTree = "<group>"; };
+		D01942C62014E5D20021FF8B /* Background_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background_04.png; path = ../Doc/Images/Background_04.png; sourceTree = "<group>"; };
+		D01942C72014E5D20021FF8B /* dark-softcloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-softcloth.png"; path = "../Doc/Images/dark-softcloth.png"; sourceTree = "<group>"; };
+		D01942C82014E5D20021FF8B /* 011-subtle-light-patterns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "011-subtle-light-patterns.jpg"; path = "../Doc/Images/011-subtle-light-patterns.jpg"; sourceTree = "<group>"; };
+		D01942C92014E5D20021FF8B /* Background_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Background_03.png; path = ../Doc/Images/Background_03.png; sourceTree = "<group>"; };
+		D01942CA2014E5D20021FF8B /* 003-Brown-Paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "003-Brown-Paper.png"; path = "../Doc/Images/003-Brown-Paper.png"; sourceTree = "<group>"; };
+		D01942CB2014E5D20021FF8B /* 03-Tile-Hail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "03-Tile-Hail.png"; path = "../Doc/Images/03-Tile-Hail.png"; sourceTree = "<group>"; };
+		D01942CC2014E5D20021FF8B /* 004-subtle-light-pattern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "004-subtle-light-pattern.jpg"; path = "../Doc/Images/004-subtle-light-pattern.jpg"; sourceTree = "<group>"; };
+		D01942CD2014E5D20021FF8B /* 06-Granite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "06-Granite.png"; path = "../Doc/Images/06-Granite.png"; sourceTree = "<group>"; };
+		D01942CE2014E5D20021FF8B /* dark-hardtissue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-hardtissue.png"; path = "../Doc/Images/dark-hardtissue.png"; sourceTree = "<group>"; };
+		D01942CF2014E5D30021FF8B /* 007-subtle-light-patterns.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "007-subtle-light-patterns.jpg"; path = "../Doc/Images/007-subtle-light-patterns.jpg"; sourceTree = "<group>"; };
+		D01942D02014E5D30021FF8B /* 01-Stiff-Paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "01-Stiff-Paper.png"; path = "../Doc/Images/01-Stiff-Paper.png"; sourceTree = "<group>"; };
+		D01942D12014E5D30021FF8B /* dark-cardboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "dark-cardboard.png"; path = "../Doc/Images/dark-cardboard.png"; sourceTree = "<group>"; };
+		D01942D22014E5D30021FF8B /* 017-Subtle-light-patterns-Vol04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "017-Subtle-light-patterns-Vol04.png"; path = "../Doc/Images/017-Subtle-light-patterns-Vol04.png"; sourceTree = "<group>"; };
+		D01942D32014E5D30021FF8B /* 018-Subtle-light-patterns-Vol04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "018-Subtle-light-patterns-Vol04.png"; path = "../Doc/Images/018-Subtle-light-patterns-Vol04.png"; sourceTree = "<group>"; };
+		D01942D42014E5D30021FF8B /* 019-Subtle-light-patterns-Vol04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "019-Subtle-light-patterns-Vol04.png"; path = "../Doc/Images/019-Subtle-light-patterns-Vol04.png"; sourceTree = "<group>"; };
+		D01942D52014E5D30021FF8B /* 020-Subtle-light-patterns-Vol04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "020-Subtle-light-patterns-Vol04.png"; path = "../Doc/Images/020-Subtle-light-patterns-Vol04.png"; sourceTree = "<group>"; };
+		D01942D62014E5D40021FF8B /* 007-dark-loom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "007-dark-loom.png"; path = "../Doc/Images/007-dark-loom.png"; sourceTree = "<group>"; };
+		D01943242014E61B0021FF8B /* Empty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Empty.storyboard; path = ../../../../../Ref/iOS/Base/Empty.storyboard; sourceTree = "<group>"; };
+		D01943252014E61B0021FF8B /* NewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewClass.swift; path = ../../../../../Ref/iOS/Base/NewClass.swift; sourceTree = "<group>"; };
+		D01943262014E61B0021FF8B /* Stdcomments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stdcomments.swift; path = ../../../../../Ref/iOS/Base/Stdcomments.swift; sourceTree = "<group>"; };
+		D019432A2014E62A0021FF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D039B4B61BF4D7950024005F /* 0_0 - UIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0_0 - UIImageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04F50F51FF8066400A8C7B3 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
-		D04F50F61FF8066400A8C7B3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D04F50F71FF8066400A8C7B3 /* Stdcomments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stdcomments.swift; sourceTree = "<group>"; };
 		D04F50FB1FF8066400A8C7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D04F51001FF8067C00A8C7B3 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		D04F51011FF8067C00A8C7B3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,19 +202,106 @@
 		D0192E491D10FC4B00DCD467 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				D039B4B71BF4D7950024005F /* Products */,
 				D04F50FB1FF8066400A8C7B3 /* Assets.xcassets */,
 				D04F50F51FF8066400A8C7B3 /* Base.lproj */,
-				D04F50F61FF8066400A8C7B3 /* Info.plist */,
-				D04F50F71FF8066400A8C7B3 /* Stdcomments.swift */,
+				D01943242014E61B0021FF8B /* Empty.storyboard */,
+				D019432A2014E62A0021FF8B /* Info.plist */,
+				D01943252014E61B0021FF8B /* NewClass.swift */,
+				D01943262014E61B0021FF8B /* Stdcomments.swift */,
+				D039B4B71BF4D7950024005F /* Products */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		D01942892014E5BC0021FF8B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D01942BC2014E5D00021FF8B /* 001-Basik-Paper.png */,
+				D01942C12014E5D10021FF8B /* 01-fabric-shirt.png */,
+				D01942D02014E5D30021FF8B /* 01-Stiff-Paper.png */,
+				D019429D2014E5CD0021FF8B /* 001-subtle-light-pattern.jpg */,
+				D019429F2014E5CD0021FF8B /* 01-whitepaper.png */,
+				D01942A52014E5CD0021FF8B /* 001-wrinkled-wall.png */,
+				D01942B92014E5D00021FF8B /* 02_Wall_pattern_background_texture.png */,
+				D01942972014E5CC0021FF8B /* 02-Cream-Paper.png */,
+				D01942A02014E5CD0021FF8B /* 02-heavy-paper.png */,
+				D01942BD2014E5D00021FF8B /* 002-sandblasting.png */,
+				D01942AA2014E5CE0021FF8B /* 002-subtle-light-pattern.jpg */,
+				D01942B12014E5CF0021FF8B /* 002-Watercolor-Paper.png */,
+				D01942942014E5CC0021FF8B /* 02-whitepaper.png */,
+				D01942B72014E5D00021FF8B /* 03_Wall_pattern_background_texture.png */,
+				D01942CA2014E5D20021FF8B /* 003-Brown-Paper.png */,
+				D01942BF2014E5D10021FF8B /* 003-granulated-loom.png */,
+				D01942AE2014E5CE0021FF8B /* 03-light-carpet.png */,
+				D01942A22014E5CD0021FF8B /* 003-subtle-light-pattern.jpg */,
+				D01942CB2014E5D20021FF8B /* 03-Tile-Hail.png */,
+				D01942C02014E5D10021FF8B /* 03-whitepaper.png */,
+				D01942A62014E5CD0021FF8B /* 04-blackpaper.png */,
+				D01942922014E5CC0021FF8B /* 004-Fantasy-Paper.png */,
+				D01942B82014E5D00021FF8B /* 04-polish-wood.png */,
+				D01942952014E5CC0021FF8B /* 004-polished-wood.png */,
+				D019429A2014E5CD0021FF8B /* 04-Soft-Cloth.png */,
+				D01942CC2014E5D20021FF8B /* 004-subtle-light-pattern.jpg */,
+				D019429B2014E5CD0021FF8B /* 05-blackpaper.png */,
+				D01942AB2014E5CE0021FF8B /* 05-Cork.png */,
+				D01942B62014E5D00021FF8B /* 005-Grunge-Paper.png */,
+				D01942982014E5CC0021FF8B /* 005-subtle-light-patterns.jpg */,
+				D01942912014E5CC0021FF8B /* 05-white-brick.png */,
+				D019428C2014E5CC0021FF8B /* 005-wood-grain.png */,
+				D019428A2014E5CC0021FF8B /* 06-blackpaper.png */,
+				D01942B32014E5CF0021FF8B /* 006-fine-plaster.png */,
+				D01942CD2014E5D20021FF8B /* 06-Granite.png */,
+				D01942902014E5CC0021FF8B /* 006-Paper-Kraft.png */,
+				D01942932014E5CC0021FF8B /* 006-subtle-light-patterns.jpg */,
+				D01942B42014E5CF0021FF8B /* 06-white-cardboard.png */,
+				D01942D62014E5D40021FF8B /* 007-dark-loom.png */,
+				D019428E2014E5CC0021FF8B /* 07-Rigid-Granite.png */,
+				D01942CF2014E5D30021FF8B /* 007-subtle-light-patterns.jpg */,
+				D01942B52014E5D00021FF8B /* 008-cover-book.png */,
+				D01942B22014E5CF0021FF8B /* 008-subtle-light-patterns.jpg */,
+				D01942C22014E5D10021FF8B /* 08-Wallpaper.png */,
+				D019428B2014E5CC0021FF8B /* 009-subtle-light-patterns.jpg */,
+				D01942A42014E5CD0021FF8B /* 010-subtle-light-patterns.jpg */,
+				D01942C82014E5D20021FF8B /* 011-subtle-light-patterns.jpg */,
+				D01942B02014E5CF0021FF8B /* 012-subtle-light-patterns.jpg */,
+				D01942D22014E5D30021FF8B /* 017-Subtle-light-patterns-Vol04.png */,
+				D01942D32014E5D30021FF8B /* 018-Subtle-light-patterns-Vol04.png */,
+				D01942D42014E5D30021FF8B /* 019-Subtle-light-patterns-Vol04.png */,
+				D01942D52014E5D30021FF8B /* 020-Subtle-light-patterns-Vol04.png */,
+				D019429E2014E5CD0021FF8B /* Background_01.png */,
+				D019428D2014E5CC0021FF8B /* Background_02.png */,
+				D01942C92014E5D20021FF8B /* Background_03.png */,
+				D01942C62014E5D20021FF8B /* Background_04.png */,
+				D01942C52014E5D10021FF8B /* dark-blackboard.png */,
+				D01942D12014E5D30021FF8B /* dark-cardboard.png */,
+				D01942AC2014E5CE0021FF8B /* dark-concrete.png */,
+				D01942BE2014E5D10021FF8B /* dark-coverbook.png */,
+				D01942AD2014E5CE0021FF8B /* dark-fabric.png */,
+				D01942AF2014E5CE0021FF8B /* dark-grungewall.png */,
+				D01942962014E5CC0021FF8B /* dark-hardback.png */,
+				D01942A12014E5CD0021FF8B /* dark-hardleather.png */,
+				D01942CE2014E5D20021FF8B /* dark-hardtissue.png */,
+				D01942A32014E5CD0021FF8B /* dark-heavypaper.png */,
+				D019429C2014E5CD0021FF8B /* dark-planingwood.png */,
+				D01942C72014E5D20021FF8B /* dark-softcloth.png */,
+				D01942A72014E5CE0021FF8B /* dark-stripedsuede.png */,
+				D01942BA2014E5D00021FF8B /* dark-suede.png */,
+				D01942C32014E5D10021FF8B /* dark-wood.png */,
+				D01942BB2014E5D00021FF8B /* Melamine-wood-001.png */,
+				D01942A92014E5CE0021FF8B /* Melamine-wood-002.png */,
+				D01942992014E5CD0021FF8B /* Melamine-wood-003.png */,
+				D019428F2014E5CC0021FF8B /* Melamine-wood-004.png */,
+				D01942A82014E5CE0021FF8B /* Melamine-wood-005.png */,
+				D01942C42014E5D10021FF8B /* Melamine-wood-006.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 		D039B4AD1BF4D7950024005F = {
 			isa = PBXGroup;
 			children = (
 				D0192E491D10FC4B00DCD467 /* Base */,
+				D01942892014E5BC0021FF8B /* Images */,
 				D04F51041FF8068300A8C7B3 /* ImageViews */,
 				D04F51011FF8067C00A8C7B3 /* AppDelegate.swift */,
 				D04F51001FF8067C00A8C7B3 /* ViewController.swift */,
@@ -141,8 +386,86 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D019431E2014E5D40021FF8B /* dark-cardboard.png in Resources */,
+				D01942F52014E5D40021FF8B /* Melamine-wood-005.png in Resources */,
+				D019430B2014E5D40021FF8B /* dark-coverbook.png in Resources */,
+				D01942F32014E5D40021FF8B /* 04-blackpaper.png in Resources */,
+				D01943202014E5D40021FF8B /* 018-Subtle-light-patterns-Vol04.png in Resources */,
+				D01942D92014E5D40021FF8B /* 005-wood-grain.png in Resources */,
+				D01943182014E5D40021FF8B /* 03-Tile-Hail.png in Resources */,
+				D01942F62014E5D40021FF8B /* Melamine-wood-002.png in Resources */,
+				D019430C2014E5D40021FF8B /* 003-granulated-loom.png in Resources */,
+				D01943062014E5D40021FF8B /* 02_Wall_pattern_background_texture.png in Resources */,
+				D01943112014E5D40021FF8B /* Melamine-wood-006.png in Resources */,
+				D01942EB2014E5D40021FF8B /* Background_01.png in Resources */,
+				D01942FE2014E5D40021FF8B /* 002-Watercolor-Paper.png in Resources */,
+				D01942E72014E5D40021FF8B /* 04-Soft-Cloth.png in Resources */,
+				D01942E42014E5D40021FF8B /* 02-Cream-Paper.png in Resources */,
+				D01942DF2014E5D40021FF8B /* 004-Fantasy-Paper.png in Resources */,
+				D019431D2014E5D40021FF8B /* 01-Stiff-Paper.png in Resources */,
+				D019431B2014E5D40021FF8B /* dark-hardtissue.png in Resources */,
+				D01942EF2014E5D40021FF8B /* 003-subtle-light-pattern.jpg in Resources */,
+				D01943162014E5D40021FF8B /* Background_03.png in Resources */,
+				D01942E32014E5D40021FF8B /* dark-hardback.png in Resources */,
+				D01942F42014E5D40021FF8B /* dark-stripedsuede.png in Resources */,
+				D01942D82014E5D40021FF8B /* 009-subtle-light-patterns.jpg in Resources */,
+				D01942EA2014E5D40021FF8B /* 001-subtle-light-pattern.jpg in Resources */,
+				D01943052014E5D40021FF8B /* 04-polish-wood.png in Resources */,
+				D01942FF2014E5D40021FF8B /* 008-subtle-light-patterns.jpg in Resources */,
+				D01943132014E5D40021FF8B /* Background_04.png in Resources */,
+				D019430F2014E5D40021FF8B /* 08-Wallpaper.png in Resources */,
+				D01942EE2014E5D40021FF8B /* dark-hardleather.png in Resources */,
+				D019431C2014E5D40021FF8B /* 007-subtle-light-patterns.jpg in Resources */,
+				D01943002014E5D40021FF8B /* 006-fine-plaster.png in Resources */,
+				D01943232014E5D40021FF8B /* 007-dark-loom.png in Resources */,
+				D01942FA2014E5D40021FF8B /* dark-fabric.png in Resources */,
+				D01942FB2014E5D40021FF8B /* 03-light-carpet.png in Resources */,
+				D01942DE2014E5D40021FF8B /* 05-white-brick.png in Resources */,
+				D01943092014E5D40021FF8B /* 001-Basik-Paper.png in Resources */,
+				D01943072014E5D40021FF8B /* dark-suede.png in Resources */,
+				D01942E92014E5D40021FF8B /* dark-planingwood.png in Resources */,
 				D04F50FF1FF8066400A8C7B3 /* Assets.xcassets in Resources */,
+				D019430D2014E5D40021FF8B /* 03-whitepaper.png in Resources */,
+				D019431F2014E5D40021FF8B /* 017-Subtle-light-patterns-Vol04.png in Resources */,
+				D01943192014E5D40021FF8B /* 004-subtle-light-pattern.jpg in Resources */,
+				D01942EC2014E5D40021FF8B /* 01-whitepaper.png in Resources */,
+				D01942E52014E5D40021FF8B /* 005-subtle-light-patterns.jpg in Resources */,
+				D01942ED2014E5D40021FF8B /* 02-heavy-paper.png in Resources */,
+				D01942E02014E5D40021FF8B /* 006-subtle-light-patterns.jpg in Resources */,
+				D01942F12014E5D40021FF8B /* 010-subtle-light-patterns.jpg in Resources */,
+				D01942DB2014E5D40021FF8B /* 07-Rigid-Granite.png in Resources */,
+				D01942E12014E5D40021FF8B /* 02-whitepaper.png in Resources */,
+				D019431A2014E5D40021FF8B /* 06-Granite.png in Resources */,
+				D01942F92014E5D40021FF8B /* dark-concrete.png in Resources */,
+				D01942D72014E5D40021FF8B /* 06-blackpaper.png in Resources */,
+				D01942E62014E5D40021FF8B /* Melamine-wood-003.png in Resources */,
+				D01943152014E5D40021FF8B /* 011-subtle-light-patterns.jpg in Resources */,
+				D01943272014E61B0021FF8B /* Empty.storyboard in Resources */,
+				D01943142014E5D40021FF8B /* dark-softcloth.png in Resources */,
+				D01943102014E5D40021FF8B /* dark-wood.png in Resources */,
 				D04F50FC1FF8066400A8C7B3 /* Base.lproj in Resources */,
+				D019430E2014E5D40021FF8B /* 01-fabric-shirt.png in Resources */,
+				D01943122014E5D40021FF8B /* dark-blackboard.png in Resources */,
+				D01943022014E5D40021FF8B /* 008-cover-book.png in Resources */,
+				D01942F82014E5D40021FF8B /* 05-Cork.png in Resources */,
+				D01942DA2014E5D40021FF8B /* Background_02.png in Resources */,
+				D01943032014E5D40021FF8B /* 005-Grunge-Paper.png in Resources */,
+				D01942DC2014E5D40021FF8B /* Melamine-wood-004.png in Resources */,
+				D01942DD2014E5D40021FF8B /* 006-Paper-Kraft.png in Resources */,
+				D01943042014E5D40021FF8B /* 03_Wall_pattern_background_texture.png in Resources */,
+				D01943212014E5D40021FF8B /* 019-Subtle-light-patterns-Vol04.png in Resources */,
+				D01942E22014E5D40021FF8B /* 004-polished-wood.png in Resources */,
+				D01943172014E5D40021FF8B /* 003-Brown-Paper.png in Resources */,
+				D01943082014E5D40021FF8B /* Melamine-wood-001.png in Resources */,
+				D01942F02014E5D40021FF8B /* dark-heavypaper.png in Resources */,
+				D01942E82014E5D40021FF8B /* 05-blackpaper.png in Resources */,
+				D01942FD2014E5D40021FF8B /* 012-subtle-light-patterns.jpg in Resources */,
+				D01942FC2014E5D40021FF8B /* dark-grungewall.png in Resources */,
+				D01943012014E5D40021FF8B /* 06-white-cardboard.png in Resources */,
+				D01942F72014E5D40021FF8B /* 002-subtle-light-pattern.jpg in Resources */,
+				D019430A2014E5D40021FF8B /* 002-sandblasting.png in Resources */,
+				D01942F22014E5D40021FF8B /* 001-wrinkled-wall.png in Resources */,
+				D01943222014E5D40021FF8B /* 020-Subtle-light-patterns-Vol04.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,10 +477,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04F51091FF8069000A8C7B3 /* TappableImageSwapView.swift in Sources */,
+				D01943292014E61B0021FF8B /* Stdcomments.swift in Sources */,
 				D04F51031FF8067C00A8C7B3 /* AppDelegate.swift in Sources */,
 				D04F51021FF8067C00A8C7B3 /* ViewController.swift in Sources */,
+				D01943282014E61B0021FF8B /* NewClass.swift in Sources */,
 				D04F510A1FF8069000A8C7B3 /* TappableImageView.swift in Sources */,
-				D04F50FE1FF8066400A8C7B3 /* Stdcomments.swift in Sources */,
 				D04F51081FF8069000A8C7B3 /* FadingImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
