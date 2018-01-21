@@ -1,28 +1,36 @@
-//
-//  TappableImageView
-//  0_0 - UIImageView
-//
-//  URL: http://stackoverflow.com/questions/26244889/extended-uiview-class-using-swift
-//
-//
-//
-
+/************************************************************************************************************************************/
+/** @file       TappableImageView.swift
+ *  @project    0_0 - UIImageView
+ *  @brief      x
+ *  @details    x
+ *
+ *  @section    Reference
+ *      http://stackoverflow.com/questions/26244889/extended-uiview-class-using-swift
+ *
+ *  @section    Opens
+ *      fcn headers
+ *
+ *  @section    Legal Disclaimer
+ *      All contents of this source file and/or any other Jaostech related source files are the explicit property of Jaostech
+ *      Corporation. Do not distribute. Do not copy.
+ */
+/************************************************************************************************************************************/
 import UIKit
+
 
 class TappableImageView : UIImageView {
 
-    @objc var firstImage :UIImage = UIImage(named:"animal_0")!;
-
-    @objc var secondImage:UIImage = UIImage(named:"animal_1")!;
-
-
-    
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder);
-    }
+    //Images
+    var firstImage :UIImage = UIImage(named:"animal_0")!;
+    var secondImage:UIImage = UIImage(named:"animal_1")!;
 
     
+    /********************************************************************************************************************************/
+    /** @fcn        override init(frame: CGRect)
+     *  @brief      x
+     *  @details    x
+     */
+    /********************************************************************************************************************************/
     override init(frame: CGRect) {
         super.init(frame: frame);
         
@@ -30,14 +38,19 @@ class TappableImageView : UIImageView {
 
         self.addTapRecognizer();
         
-        print("TappableImageView was initialized");
+        if(verbose) { print("TappableImageView.init():           initialization complete"); }
 
         return;
     }
     
     
-
-    @objc func addTapRecognizer() {
+    /********************************************************************************************************************************/
+    /** @fcn        addTapRecognizer()
+     *  @brief      x
+     *  @details    x
+     */
+    /********************************************************************************************************************************/
+    func addTapRecognizer() {
         
         let tapRecognizer : UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(TappableImageView.handleTap(_:)));
         
@@ -47,12 +60,17 @@ class TappableImageView : UIImageView {
         self.addGestureRecognizer(tapRecognizer);
         self.isUserInteractionEnabled = true;
         
-        print("addTapRecognizer was called");
+        if(verbose) { print("TappableImageView.addTapRecog():    addTapRecognizer was called"); }
         
         return;
     }
 
-    
+    /********************************************************************************************************************************/
+    /** @fcn        handleTap(_ recognizer:UITapGestureRecognizer)
+     *  @brief      x
+     *  @details    x
+     */
+    /********************************************************************************************************************************/
     @objc func handleTap(_ recognizer:UITapGestureRecognizer) {
         
         //Swap w/Fade
@@ -68,8 +86,19 @@ class TappableImageView : UIImageView {
         
         self.layer.add(fadeAnim, forKey: "contents");
         
-        print("Swap");
+        if(verbose) { print("TappleImageView.handleTap():        fade complete"); }
         
         return;
+    }
+    
+    
+    /********************************************************************************************************************************/
+    /** @fcn        required init?(coder aDecoder: NSCoder)
+     *  @brief      x
+     *  @details    x
+     */
+    /********************************************************************************************************************************/
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("not implemented!");
     }
 }

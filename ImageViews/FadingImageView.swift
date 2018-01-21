@@ -1,41 +1,49 @@
-//
-//  FadingImageView
-//  0_0 - UIImageView
-//
-//
-//
-//
-//
-
+/************************************************************************************************************************************/
+/** @file       FadingImageView.swift
+ *  @project    0_0 - UIImageView
+ *  @brief      x
+ *  @details    x
+ *
+ *  @section    Opens
+ *      fcn headers
+ *
+ *  @section    Legal Disclaimer
+ *      All contents of this source file and/or any other Jaostech related source files are the explicit property of Jaostech
+ *      Corporation. Do not distribute. Do not copy.
+ */
+/************************************************************************************************************************************/
 import UIKit
+
 
 class FadingImageView : UIImageView {
 
-    @objc var firstImage :UIImage = UIImage(named:"animal_0")!;
+    //Images
+    var firstImage :UIImage = UIImage(named:"animal_0")!;
+    var secondImage:UIImage = UIImage(named:"animal_1")!;
 
-    @objc var secondImage:UIImage = UIImage(named:"animal_1")!;
+    //Threads
+    var loadThread : Timer!;
+    var fadeThread : Timer!;
+    var sizeThread : Timer!;
 
-    @objc var loadThread : Timer!;
-    @objc var fadeThread : Timer!;
-    @objc var sizeThread : Timer!;
-
-    @objc let loadDelay_s : Double = 0.5;
+    let loadDelay_s : Double = 0.5;
 
     enum SIZEMODE { case increasing, decreasing }
     
     var currSizeMode:SIZEMODE!;
     var maxWidth:CGFloat!;
-    
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder);
-    }
 
     
-    // Init to firstImage
+    /********************************************************************************************************************************/
+    /** @fcn        override init(frame: CGRect)
+     *  @brief      init to firstImage
+     *  @details    x
+     */
+    /********************************************************************************************************************************/
     override init(frame: CGRect) {
         super.init(frame: frame);
         
-        self.alpha = 0; //init as off
+        self.alpha = 0;                                                 /* init as off                                              */
         
         self.currSizeMode = .decreasing;
         
@@ -43,7 +51,7 @@ class FadingImageView : UIImageView {
         
         self.image = firstImage;
 
-        print("TappableImageView was initialized");
+        if(verbose) { print("FadingImageView.init():             initialization complete"); }
         
         self.loadThread = Timer.scheduledTimer(timeInterval: loadDelay_s, target: self, selector: #selector(FadingImageView.init_load), userInfo: nil, repeats: true);
         
@@ -51,20 +59,31 @@ class FadingImageView : UIImageView {
     }
     
     
+    /********************************************************************************************************************************/
+    /** @fcn        init_load()
+     *  @brief      x
+     *  @details    x
+     */
+    /********************************************************************************************************************************/
     @objc func init_load() {
 
-        print("Loading after a delay");
+        if(verbose) { print("FadingImageView.init_load():        loading after a delay complete"); }
         
         fadeThread = Timer.scheduledTimer(timeInterval: 0.0125, target: self, selector: #selector(FadingImageView.incr_fade_step), userInfo: nil, repeats: true);
 
         sizeThread = Timer.scheduledTimer(timeInterval: 0.025, target: self, selector: #selector(FadingImageView.incr_size_step), userInfo: nil, repeats: true);
 
-        
         loadThread.invalidate();
         return;
     }
     
     
+    /********************************************************************************************************************************/
+    /** @fcn        incr_fade_step()
+     *  @brief      x
+     *  @details    x
+     */
+    /********************************************************************************************************************************/
     @objc func incr_fade_step() {
 
         var newAlpha:CGFloat = self.alpha;
@@ -73,15 +92,13 @@ class FadingImageView : UIImageView {
             newAlpha = newAlpha + 0.025;
         }
         
-        //print("Trying \(newAlpha)");
-
         if(newAlpha >= 1.0) {
 
             newAlpha = 1.0;
 
-            print("Face Complete");
+            if(verbose) { print("FadingImageView.incr_fade_step():   fade complete"); }
 
-            fadeThread.invalidate(); //stop the thread!
+            fadeThread.invalidate();                                            /* stop the thread!                                 */
         }
         
         self.alpha = newAlpha;
@@ -90,6 +107,12 @@ class FadingImageView : UIImageView {
     }
 
 
+    /********************************************************************************************************************************/
+    /** @fcn        incr_size_step()
+     *  @brief      x
+     *  @details    x
+     */
+    /********************************************************************************************************************************/
     @objc func incr_size_step() {
         
         //Get curr frame
@@ -101,7 +124,7 @@ class FadingImageView : UIImageView {
         var new_y     :CGFloat!;
         
         if((currFrame.width < 100)||(currFrame.height<100)) {
-            self.currSizeMode = .increasing;            //time to switch it!
+            self.currSizeMode = .increasing;                                    /* time to switch it!                               */
         }
         
         if(self.currSizeMode == .increasing) {
@@ -117,7 +140,7 @@ class FadingImageView : UIImageView {
                 new_x = currFrame.origin.x;
                 new_y = currFrame.origin.y;
                 
-                self.currSizeMode = .decreasing;        //time to switch it!
+                self.currSizeMode = .decreasing;                                /* time to switch it!                               */
             }
         } else {
             new_width  = currFrame.width  - 4;
@@ -131,5 +154,16 @@ class FadingImageView : UIImageView {
         self.frame = CGRect(x: new_x, y: new_y, width: new_width, height: new_height);
         
         return;
+    }
+    
+    
+    /********************************************************************************************************************************/
+    /** @fcn        required init?(coder aDecoder: NSCoder)
+     *  @brief      x
+     *  @details    x
+     */
+    /********************************************************************************************************************************/
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("not implemented!");
     }
 }

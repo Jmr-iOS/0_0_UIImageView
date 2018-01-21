@@ -87,6 +87,7 @@
 		D01943272014E61B0021FF8B /* Empty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01943242014E61B0021FF8B /* Empty.storyboard */; };
 		D01943282014E61B0021FF8B /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01943252014E61B0021FF8B /* NewClass.swift */; };
 		D01943292014E61B0021FF8B /* Stdcomments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01943262014E61B0021FF8B /* Stdcomments.swift */; };
+		D019432C2014EEBD0021FF8B /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = D019432B2014EEBD0021FF8B /* example.png */; };
 		D04F50FC1FF8066400A8C7B3 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D04F50F51FF8066400A8C7B3 /* Base.lproj */; };
 		D04F50FF1FF8066400A8C7B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04F50FB1FF8066400A8C7B3 /* Assets.xcassets */; };
 		D04F51021FF8067C00A8C7B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04F51001FF8067C00A8C7B3 /* ViewController.swift */; };
@@ -178,6 +179,7 @@
 		D01943252014E61B0021FF8B /* NewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewClass.swift; path = ../../../../../Ref/iOS/Base/NewClass.swift; sourceTree = "<group>"; };
 		D01943262014E61B0021FF8B /* Stdcomments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stdcomments.swift; path = ../../../../../Ref/iOS/Base/Stdcomments.swift; sourceTree = "<group>"; };
 		D019432A2014E62A0021FF8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D019432B2014EEBD0021FF8B /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = example.png; path = "../../0_0 - aNoteTable/Base/Images/example.png"; sourceTree = "<group>"; };
 		D039B4B61BF4D7950024005F /* 0_0 - UIImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0_0 - UIImageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04F50F51FF8066400A8C7B3 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
 		D04F50FB1FF8066400A8C7B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -216,6 +218,7 @@
 		D01942892014E5BC0021FF8B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D019432B2014EEBD0021FF8B /* example.png */,
 				D01942BC2014E5D00021FF8B /* 001-Basik-Paper.png */,
 				D01942C12014E5D10021FF8B /* 01-fabric-shirt.png */,
 				D01942D02014E5D30021FF8B /* 01-Stiff-Paper.png */,
@@ -386,6 +389,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D019432C2014EEBD0021FF8B /* example.png in Resources */,
 				D019431E2014E5D40021FF8B /* dark-cardboard.png in Resources */,
 				D01942F52014E5D40021FF8B /* Melamine-wood-005.png in Resources */,
 				D019430B2014E5D40021FF8B /* dark-coverbook.png in Resources */,
